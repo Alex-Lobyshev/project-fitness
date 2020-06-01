@@ -1,11 +1,11 @@
 .social {
-  display: flex;
-  &--about{
-    flex-direction: column;
-  }
-
   &--header {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
     margin-left: 141px;
+    position: relative;
+    top: 70%;
     margin-bottom: 44px;
   }
 
@@ -21,9 +21,11 @@
   &__item {
     &--header {
       margin-bottom: 24px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
+
 }

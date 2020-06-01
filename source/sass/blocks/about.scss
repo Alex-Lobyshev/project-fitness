@@ -1,11 +1,6 @@
 .about {
   &__info {
     display: flex;
-    box-sizing: border-box;
-
-    &--header {
-      align-items: flex-end;
-    }
   }
 
   &__text {
@@ -13,6 +8,7 @@
     flex-direction: column;
     align-items: flex-end;
     margin-right: 64px;
+    margin-left: 19px;
   }
 
   &__town {
@@ -22,19 +18,20 @@
     font-size: $block_title_size;
     line-height: $line_height_base;
     text-transform: uppercase;
-    padding-top: 98px;
+    padding-top: 46px;
+    letter-spacing: 0.03em;
   }
 
   &__title {
-    font-size: $block_title_size +60;
+    font-size: $block_title_size + 60;
     line-height: $line_height_base;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 
     &--header {
       color: #ffffff;
       text-align: right;
-      margin-top: -14px;
+      margin-top: -5px;
       font-family: "Bebas Neue";
       text-shadow: 0 0 2px #FFFFFF;
     }
@@ -42,6 +39,7 @@
 
   &__describe {
     display: flex;
+    position: relative;
   }
 
   &__list {
@@ -50,10 +48,9 @@
     &--header {
       flex-direction: column;
       align-items: flex-end;
-      align-self: center;
-      margin-top: 44px;
       position: relative;
-      right: -48px;
+      top: 124px;
+      right: -36px;
     }
   }
 
@@ -62,6 +59,10 @@
 
     &--header {
       color: #ffffff;
+      font-family: "Roboto Condensed";
+      font-weight: 400;
+      font-size: $main_font_size - 2px;
+      line-height: $line_height_base + 50%;
     }
   }
 
