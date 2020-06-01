@@ -1,0 +1,17 @@
+.pre-header {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: #ffffff;
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: $main_font_size + 10;
+    line-height: $line_height_base;
+    text-transform: uppercase;
+  }
+
+  &__logo,
+  &__phone {
+    padding-top: 30px;
+  }
+}

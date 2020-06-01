@@ -1,0 +1,47 @@
+.header {
+  &--main {
+    background-image: url("/img/main_banner_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 51px;
+  }
+
+  .list-describe {
+    color: #ffffff;
+    font-size: $main_font_size - 2;
+  }
+
+
+  .describe {
+    &--position {
+      position: relative;
+      top: -100px;
+    }
+
+    &__list {
+      text-align: right;
+      align-self: center;
+      margin-right: -60px;
+      margin-top: 110px;
+    }
+  }
+
+
+
+  .social-list {
+    display: flex;
+
+    &__header {
+      flex-direction: column;
+      margin-left: 141px;
+      position: relative;
+      top: 70%;
+    }
+  }
+
+  .buy-ticket-wrapper {
+    margin-top: -60px;
+    padding-bottom: 96px;
+  }
+}

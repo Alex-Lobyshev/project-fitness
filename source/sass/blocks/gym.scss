@@ -1,0 +1,52 @@
+.gym-describe {
+  &--margin {
+    margin-right: 85px;
+  }
+}
+
+.gym-block {
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 120px;
+  }
+
+  &__info {
+    font-size: $main_font_size + 2;
+    line-height: $line_height_base + 50;
+    color: #102654;
+    padding-top: 25px;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: $main_font_size;
+    line-height: $line_height_base + 50;
+    color: #102654;
+
+    &--first {
+      padding-top: 55px;
+    }
+  }
+
+  .gym__image {
+    position: relative;
+  }
+
+  .gym-video {
+    img {
+      padding: 64px 132px;
+      background: url('/img/video_bg.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: -113px;
+      left: -63px;
+    }
+
+
+  }
+
+}
