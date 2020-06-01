@@ -3,4 +3,27 @@
   &--about{
     flex-direction: column;
   }
+
+  &--header {
+    margin-left: 141px;
+    margin-bottom: 44px;
+  }
+
+  &__link {
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: $main_font_size - 4;
+    color: #ffffff;
+    line-height: $line_height_base +17;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    &--header {
+      margin-bottom: 24px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }

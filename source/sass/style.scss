@@ -1,2 +1,40 @@
 @import "normalize.scss";
 @import "fonts.scss";
+@import "variables.scss";
+@import "blocks/header";
+@import "blocks/pre-header";
+@import "blocks/about";
+@import "blocks/social";
+@import "blocks/tabs";
+@import "blocks/gym";
+
+
+body {
+  font-family: $font_roboto;
+}
+
+.wrapper {
+  width: $desctop_width;
+  max-width: $desctop_width;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.block-title {
+  font-size: $block_title_size;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #102654;
+  line-height: $line_height_base;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+
+.social-link {
+  color: #ffffff;
+  font-size: $font_size_btn;
+  line-height: $line_height_base +17;
+  text-transform: uppercase;
+}

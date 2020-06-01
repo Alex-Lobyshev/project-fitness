@@ -1,49 +1,342 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="keywords" content="фитнес центр, кардио-зона, кроссфит, групповые занятия, годовой абонемент">
-  <meta name="description" content="SUPERGYM — самый большой фитнес центр за Уралом, идеальное место для укрепления тела и здоровья. Тренажерный зал, кардио-зона, групповые занятия.">
-  <title>SUPERGYM — фитнес-центр</title>
-  <link rel="stylesheet" href="css/style.min.css">
-  <style>
-    .class1,
-    .class2,
-    .class3 {
-      font-family: "Roboto Condensed";
-      font-size: 24px
-    }
-    .class1 {
-      font-weight: 300;
-    }
-    .class2 {
-      font-weight: 400;
-    }
-    .class3 {
-      font-weight: 700;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="фитнес центр, кардио-зона, кроссфит, групповые занятия, годовой абонемент">
+    <meta name="description" content="SUPERGYM — самый большой фитнес центр за Уралом, идеальное место для укрепления тела и здоровья. Тренажерный зал, кардио-зона, групповые занятия.">
+    <title>SUPERGYM — фитнес-центр</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--<style>
+        .class1,
+        .class2,
+        .class3 {
+            font-family: "Roboto Condensed";
+            font-size: 24px
+        }
+
+        .class1 {
+            font-weight: 300;
+        }
+
+        .class2 {
+            font-weight: 400;
+        }
+
+        .class3 {
+            font-weight: 700;
+        }
 
 
-    .class4,
-    .class5 {
-      font-family: "Bebas Neue";
-      font-size: 24px;
-    }
-    .class4 {
-      font-weight: 400;
-    }
-    .class5 {
-      font-weight: 700;
-    }
-  </style>
+        .class4,
+        .class5 {
+            font-family: "Bebas Neue";
+            font-size: 24px;
+        }
+
+        .class4 {
+            font-weight: 400;
+        }
+
+        .class5 {
+            font-weight: 700;
+        }
+    </style>-->
 </head>
 <body>
-  <h3 class="class1">Шрифт 1</h3>
-  <h3 class="class2">Шрифт 2</h3>
-  <h3 class="class3">Шрифт 3</h3>
-  <h3 class="class4">Шрифт 4</h3>
-  <h3 class="class5">Шрифт 5</h3>
+<header class="header header--main tablet mobile">
+    <div class="wrapper">
+        <div class="pre-header">
+            <a href="" class="logo pre-header__logo">Supergym</a>
+            <a href="tel:88005555555" class="phone pre-header__phone">8-800-555-55-55</a>
+        </div>
+        <div class="about about__info about__info--header">
+            <div class="about__text">
+                <p class="about__town">Омск</p>
+                <div class="about__describe">
+                    <ul class="about__list about__list--header">
+                        <li class="about__item about__item--header">Тренажёрный зал</li>
+                        <li class="about__item about__item--header">Групповые занятия</li>
+                        <li class="about__item about__item--header">Кардио-зона</li>
+                    </ul>
+                    <h1 class="about__title about__title--header">Фитнес <br>центр</h1>
+                </div>
+                <a href="#buy-ticket" class="btn btn__buy--header">Купить абонемент</a>
+            </div>
+            <div class="about__image">
+                <picture>
+                    <source media="(min-width:768px)" srcset="img/man_in_header.webp" type="image/webp">
+                    <source media="(min-width:768px)" srcset="img/man_in_header.jpg">
+                    <source srcset="img/man-in-header_tablet.webp" type="image/webp">
+                    <img srcset="img/man_in_header.jpg" alt="Волевой мужик" width="500" height="556">
+                </picture>
+            </div>
+            <div class="social social--header">
+                <ul class="social social--about">
+                    <li class="social__item social__item--header">
+                        <a class="social__link" href="">fb</a>
+                    </li>
+                    <li class="social__item social__item--header">
+                        <a class="social__link" href="">vk</a>
+                    </li>
+                    <li class="social__item social__item--header">
+                        <a class="social__link" href="">ig</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main_block">
+    <section class="gym-block gym-block__wrapper wrapper">
+        <div class="gym-describe gym-describe--margin">
+            <div class="block-title gym-title">Тренажерный зал</div>
+            <div class="gym-block__info">Просторный зал площадью 900 кв/м</div>
+            <p class="gym-block__text gym-block__text--first">Supergym – самый большой фитнес центр за Уралом и
+                идеальное место для укрепления тела и здоровья. Тренажерный зал оснащен всем необходимым современным
+                оборудованием для всех спортсменов.</p>
+            <p class="gym-block__text">В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажерами.
+                Также в фитнес центре есть несколько оборудованных залов для различных видов групповых занятий.</p>
+        </div>
+        <div class="gym__image ">
+            <picture>
+                <source srcset="img/gym--tablet.jpg" media="(max-width: 768px)">
+                <source srcset="img/gym.jpg">
+                <img srcset="img/gym.jpg" alt="Фото зала">
+            </picture>
+            <a href="" class="gym-video btn-play">
+                <img src="/img/video_play.png" alt="Видеоролик">
+            </a>
+        </div>
+        
+    </section>
+    <section id="buy-ticket" class="ticket ticket__wrapper">
+        <div class="wrapper ticket__inner">
+            <div class="block-title ticket__title">Абонементы</div>
+            <!--<div class="ticket__tabs tabs" id="tabs_container">
+            <div class="ticket__item tabs__item tabs__link tabs__link&#45;&#45;active" data-tab="1">1 месяц</div>
+            <div class="ticket__item tabs__item tabs__link" data-tab="2">6 месяцев</div>
+            <div class="ticket__item tabs__item tabs__link" data-tab="3">12 месяцев</div>
+        </div>-->
+            <!--<ul class="ticket__tabs tabs" id="tabs_container">
+            <li class="ticket__item tabs__item ">
+                <a class="tabs__link tabs__link&#45;&#45;active is-active" data-tab=1>1 месяц</a>
+            </li>
+            <li class="ticket__item tabs__item">
+                <a class="tabs__link"  data-tab=2>6 месяцев</a>
+            </li>
+            <li class="ticket__item tabs__item" >
+                <a class="tabs__link" data-tab=3>12 месяцев</a>
+            </li>
+        </ul>-->
+            <ul class="ticket__tabs tabs">
+                <li class="ticket__item tabs__item" id="tabs_container">
+                    <a class="tabs__link tabs__link--active is-active" data-tab="1">1 месяц</a>
+                    <a class="tabs__link" data-tab="2">6 месяцев</a>
+                    <a class="tabs__link" data-tab="3">12 месяцев</a>
+                </li>
+            </ul>
+            <ul class=" ">
+                <li>
+                    <ul class="tabs__info--active">
+                        <li class="ticket-price__item">
+                            <div class="price-info ticket-price__info">
+                                <p class="ticket-price__name">С тренером</p>
+                                <p class="ticket-price__lessons">12 занятий</p>
+                                <p class="ticket-price__price" data-price="5000">5000 <img src="/img/rub.svg" alt="Символ рубля" height="100%">
+                                </p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                        <li class="ticket-price__item">
+                            <div class="price-info ticket-price__info">
+                                <p class="ticket-price__name">Дневной</p>
+                                <p class="ticket-price__lessons">с 8:00 до 17:00 </p>
+                                <p class="ticket-price__price" data-price="1700">1700 <img src="/img/rub.svg" alt="Символ рубля"></p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                        <li class="ticket-price__item equipment-image">
+                            <div class="ticket-price__info">
+                                <p class="ticket-price__name ">Полный день</p>
+                                <p class="ticket-price__lessons">с 8:00 до 22:00 </p>
+                                <p class="ticket-price__price" data-price="2700">2700<img src="/img/rub.svg" alt="Символ рубля"></p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="tabs__info--noactive">
+                        <li class="ticket-price__item">
+                            <div class="price-info ticket-price__info">
+                                <p class="ticket-price__name">С тренером</p>
+                                <p class="ticket-price__lessons">12 занятий</p>
+                                <p class="ticket-price__price" data-price="6000">6000 <img src="/img/rub.svg" alt="Символ рубля" height="100%">
+                                </p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                        <li class="ticket-price__item">
+                            <div class="price-info ticket-price__info">
+                                <p class="ticket-price__name">Дневной</p>
+                                <p class="ticket-price__lessons">с 8:00 до 17:00 </p>
+                                <p class="ticket-price__price" data-price="1700">1700 <img src="/img/rub.svg" alt="Символ рубля"></p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                        <li class="ticket-price__item equipment-image">
+                            <div class="ticket-price__info">
+                                <p class="ticket-price__name ">Полный день</p>
+                                <p class="ticket-price__lessons">с 8:00 до 22:00 </p>
+                                <p class="ticket-price__price" data-price="2700">2700<img src="/img/rub.svg" alt="Символ рубля"></p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="tabs__info--noactive">
+                        <li class="ticket-price__item">
+                            <div class="price-info ticket-price__info">
+                                <p class="ticket-price__name">С тренером</p>
+                                <p class="ticket-price__lessons">12 занятий</p>
+                                <p class="ticket-price__price" data-price="7000">7000 <img src="/img/rub.svg" alt="Символ рубля" height="100%">
+                                </p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                        <li class="ticket-price__item">
+                            <div class="price-info ticket-price__info">
+                                <p class="ticket-price__name">Дневной</p>
+                                <p class="ticket-price__lessons">с 8:00 до 17:00 </p>
+                                <p class="ticket-price__price" data-price="1700">1700 <img src="/img/rub.svg" alt="Символ рубля"></p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                        <li class="ticket-price__item equipment-image">
+                            <div class="ticket-price__info">
+                                <p class="ticket-price__name ">Полный день</p>
+                                <p class="ticket-price__lessons">с 8:00 до 22:00 </p>
+                                <p class="ticket-price__price" data-price="2700">2700<img src="/img/rub.svg" alt="Символ рубля"></p>
+                                <a href="" class="btn btn__ticket-price">купить абонемент</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <script>
+              (function () {
+                var tabs = document.getElementById('tabs_container');
+                var tabsLink = document.getElementsByClassName('tabs__link');
+                var tabList = Array.prototype.slice.call(tabs.children);
+
+
+                var handleTab = function (click) {
+                  var clickedElement = click.target;
+                  var attrNumber = clickedElement.getAttribute('data-tab');
+                  var tabsInfo = document.getElementById('tab-info--' + attrNumber);
+
+                  if (clickedElement.classList.contains('tabs__link')) {
+
+                    tabList.forEach(tab => {
+                      if (tab.dataset.tab != clickedElement.dataset.tab) {
+                        tab.classList.remove('tabs__link--active');
+                        tabsLink[tab.dataset.tab - 1].classList.add('tabs__link--noactive');
+                        tabsInfo.classList.add('tabs__info--noactive');
+
+                      }
+                    });
+
+                    clickedElement.classList.add('tabs__link--active');
+                    tabsLink[clickedElement.dataset.tab - 1].classList.remove('tabs__link--noactive');
+                    tabsInfo.classList.add('tabs__info--active');
+
+                  }
+                };
+
+                tabs.addEventListener('click', handleTab);
+              })();
+            </script>
+        </div>
+    </section>
+    <section class="super-games">
+        <div class="super-games__info competition">
+            <div class="competition__describe">
+                <div class="competition_title">SUPER GAMES</div>
+                <div class="competition_date">
+                    <div class="day">
+                        <p class="day__title">Дата</p>
+                        <div class="day__info">
+                            <p class="">7</p>
+                            <p class="">Март 2019</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="time__title">Время</p>
+                        <p class="time__info">12:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="competition__text">
+                Ежегодные соревнования по CrossFit
+            </div>
+            <a href="" class="btn competition__record">заполнить заявку</a>
+        </div>
+        
+        <div class="super-games_image">
+            <img src="/img/super_games.jpg" alt="Реклама соревнований">
+        </div>
+    </section>
+    <section class="coaches wrapper">
+        <div class="wrapper-inner coaches__list">
+            <ul id="slider-list">
+                <li class="slider-item">
+                    <a href=""></a>
+                </li>
+                <li class="slider-item"><a href="">Slide 2</a></li>
+                <li class="slider-item"><a href="">Slide 3</a></li>
+                <li class="slider-item"><a href="">Slide 4</a></li>
+                <li class="slider-item"><a href="">Slide 5</a></li>
+                <li class="slider-item"><a href="">Slide 6</a></li>
+                <li class="slider-item"><a href="">Slide 7</a></li>
+                <li class="slider-item"><a href="">Slide 8</a></li>
+                <li class="slider-item"><a href="">Slide 9</a></li>
+                <li class="slider-item"><a href="">Slide 10</a></li>
+                <li class="slider-item"><a href="">Slide 11</a></li>
+                <li class="slider-item"><a href="">Slide 12</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <ul class="menu">
+        <li class="menu-item">
+            <a href="/" class="menu-link logo footer_logo">Supergym</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-link" href="">Услуги</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-link" href="">Абонементы</a></li>
+        <li class="menu-item">
+            <a class="menu-link" href="">Акции</a></li>
+        <li class="menu-item">
+            <a class="menu-link" href="">Тренеры</a></li>
+        <li class="menu-item">
+            <a class="menu-link" href="">Расписание</a></li>
+    </ul>
+    <ul class="social-list social-list__header">
+        <li class="social-item">fb</li>
+        <li class="social-item">vk</li>
+        <li class="social-item">ig</li>
+    </ul>
+</footer>
+<h3 class="class1">Шрифт 1</h3>
+<h3 class="class2">Шрифт 2</h3>
+<h3 class="class3">Шрифт 3</h3>
+<h3 class="class4">Шрифт 4</h3>
+<h3 class="class5">Шрифт 5</h3>
 </body>
 </html>
