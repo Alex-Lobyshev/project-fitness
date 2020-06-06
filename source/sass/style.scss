@@ -16,10 +16,18 @@ body {
 }
 
 .wrapper {
-  width: $desctop_width;
-  max-width: $desctop_width;
+  width: $desktop_width;
+  max-width: $desktop_width;
   margin: 0 auto;
   box-sizing: border-box;
+  @media(min-width: 768px) and (max-width: 1199px) {
+    width: $tablet_width;
+    max-width: $tablet_width;
+
+    /*&--tablet {
+      padding: 0 46px;
+    }*/
+  }
 }
 
 .block-title {
